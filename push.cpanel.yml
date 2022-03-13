@@ -3,5 +3,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/northernlightset/public_html/
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
