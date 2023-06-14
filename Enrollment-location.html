@@ -3,6 +3,18 @@
 
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3R94WNENL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3R94WNENL');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="img/favicon2.png" />
@@ -28,6 +40,60 @@
     <link rel="icon" href="img/favicon2.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="img/favicon2.png">
     <meta name="msapplication-TileImage" content="img/favicon2.png">
+    <style>
+        .hosting-container {
+            max-width: 1050px;
+            padding: 50px;
+            background: #fff;
+            margin: 20px auto;
+            /* border: solid gray; */
+            border-radius: 10px;
+        }
+        
+        .pricing {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card {
+            width: 280px;
+            height: 365px;
+            background: #26b4d7;
+            color: white;
+            margin: 0 55px 20px 0;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .card-ttl {
+            margin: 5px;
+        }
+        
+        .card-dtl h2 {
+            margin: 35px 0 20px;
+        }
+        
+        .card-dtl ul {
+            font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Open Sans, Roboto, Canterell, Helvetica Neue, sans-serif;
+            list-style-type: none;
+            line-height: 35px;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .heros {
+                padding-bottom: 0px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .heroTextImage {
+                display: block;
+            }
+        }
+    </style>
+    </body>
 </head>
 
 <body class="home page wide wave-style">
@@ -85,27 +151,26 @@
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children"><a href="#Activities__Section">Activities<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                        <li class="menu-item menu-item-has-children"><a href="about.html">About<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
 
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children"><a href="#About">About<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
 
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children right"><a href="#services">Services<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                        <li class="menu-item menu-item-has-children right"><a href="Enrollment-location.html">Enrollment<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
 
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children right"><a href="pricing.html">Pricing<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                        <li class="menu-item menu-item-has-children right"><a href="Programs-curriculum.html">Programs and Curriculum<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
                                         <li class="menu-item right bees-end">
-                                            <a href="#contacts">
+                                            <a href="Enrollment-location.html">
                                                 <div class="bees bees-end"><span></span>
                                                     <div class="line-one"></div>
                                                     <div class="line-two"></div>
@@ -125,21 +190,21 @@
                 </header>
                 <!-- #masthead -->
             </div>
-            <div class="heros" style="padding-bottom: 70px; position: relative; z-index: 100; display: flex; justify-content: center;align-items: end;height:100vh;background-image: url('NLD playground edit no Tradename 2.png');">
+            <div class="heros" style="padding-bottom: 70px; display: flex; justify-content: center;align-items: end;height:100vh;background-image: url('registration\ and\ home\ page\ desktop.png');background-size: cover;">
                 <div class="container">
-                    <div style="padding-top: 400px; display: flex; justify-content: space-between; align-items: center;">
-                        <div style="width: 35%; background-color: black;opacity: 40%; padding: 60px 10px; border-radius: 10px;">
-                            <h2 style="opacity: 100%;color: #FF3E00;font-weight: bolder;margin: 0 auto;text-align: center; margin-bottom: 40px;">No Payment Required at Registration/Secure your spot and discount </h2>
-                            <h3 style="opacity: 100%;color: #FF3E00;font-weight: bolder;margin: 0 auto;text-align: center;">Simply Provide Name Phone number and child’s age by September</h3>
+                    <div class="heroTextImage" style="position:static; width: 80%;margin: 0 auto; padding-top: 600px;display: flex; justify-content: space-between; align-items: center;">
+                        <div class="registeration" style=" background-color: rgba(0, 0, 0, 0.3); padding: 60px 10px; border-radius: 10px;">
+                            <h2 style="opacity: 100%;color: #FF3E00;font-weight: bolder;margin: 0 auto;text-align: center; margin-bottom: 40px;">No Payment Required at <br> Registration/Secure your spot <br> and discount </h2>
+                            <h3 style="opacity: 100%;color: #FF3E00;font-weight: bolder;margin: 0 auto;text-align: center;">Simply Provide <br> Name <br> Phone number <br> and child’s age by September</h3>
                         </div>
-                        <div style="width: 30%;">
-                            <img style="width: 60%; height: auto;" src="img/register.png" alt="Registration form">
+                        <div style="margin: 0 auto;">
+                            <img style="width: 200px; height: auto;" src="img/register.png" alt="Registration form">
                         </div>
                     </div>
                     <div style="text-align: center;" class="grid_row clearfix" style="padding-top: 30px;">
                         <div style="float: none;" class="grid_col ">
                             <!-- about us -->
-                            <h1 style="color: #FF3E00;font-weight: bolder;margin: 0 auto;text-align: center;">Get 30% Off by June or 15% Off by July! <br> SECURE YOUR SPOT <br> Today For Free!</h1>
+                            <h1 style="color: #FF3E00;font-weight: bolder;margin: 0 auto;text-align: center;text-shadow: 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;">Get 30% Off by June or 15% Off by July! <br> SECURE YOUR SPOT <br> Today For Free!</h1>
                             <!-- / about us -->
                         </div>
 
@@ -150,64 +215,132 @@
             <!-- END REVOLUTION SLIDER -->
         </div>
         <!-- / slider and menu container -->
-        <div class='benefits_area wave'>
-            <!-- canvas -->
-            <div class='cloud_wrapper' id="Activities__Section">
-                <canvas class='cloud' style="height: 300px;" data-bg-color='#246358' data-line-color='#ffffff'></canvas>
-            </div>
-            <!-- / canvas -->
-            <div class='container'>
-                <!-- benefits container -->
 
-                <!-- / benefits container -->
-            </div>
-        </div>
         <!-- canvas -->
-        <div class="cloud_wrapper">
-            <canvas class="white_cloud">d</canvas>
-        </div>
+
         <!-- / canvas -->
         <!-- main container -->
         <div id="main" class="site-main">
-            <div class="page_content">
+            <div class="page_content" style="padding: 0;">
                 <!-- pattern conatainer / -->
                 <div class='left-pattern pattern pattern-2'></div>
                 <main>
-                    <div class="grid_row clearfix" style="margin-top: 100px; padding-top: 30px; background-color: #246358;" class="container">
-                        <h1 style="color: #fff;font-weight: bolder; text-align: center; font-size: 50px;">RECOMMENDED</h1>
-                        <div style="width: 70%; margin: 0 auto;">
-                            <img style=" width: 100%; height:auto;" src="aurora2.jpg" alt="">
+                    <div class="grid_row clearfix" style="margin-top: -110px; padding-top: 80px; background-color: #246358;" class="container">
+                        <h1 style="color: #fff;font-weight: bolder; text-align: center; font-size: 50px;">MAIN BRANCH</h1>
+                        <div style="text-align: center; color: black; display: flex;justify-content: center; margin: 0 auto;">
+                            <input type="radio" name="food" id="foodIncluded" value="foodIncluded" checked>
+                            <label style="margin-right: 15px; margin-bottom: 25px;" for="foodIncluded">Food Included</label>
+                            <input type="radio" name="food" id="foodNotIncluded" value="foodNotIncluded">
+                            <label for="foodNotIncluded">Food Not Included</label>
+                        </div>
+                        <!-- <p id="discountText">price</p>
+                        <p id="mainPriceText">price</p> -->
+
+                        <div style="display: flex;flex-wrap: wrap; flex-direction: column; justify-content: center; align-items: center; width: 70%; margin: 0 auto;background-color: #26B4D7;">
+                            <h2 style="color: white;font-size: 40px; font-weight: bold;">Salite Meheret</h2>
+                            <div style="width: 95%;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4341067306364!2d38.823369574909165!3d9.024104591037048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b9beac963d255%3A0xbff7b6f801930b3e!2sNorthern%20Lights%20Day%20care!5e0!3m2!1sen!2set!4v1686499853484!5m2!1sen!2set"
+                                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div style="width: 90%; color: black; text-align: center;" class="cardContent">
+                                <h4>Nutritious Meals: Nido, breakfast, fruits, snacks, and water included</h4>
+                                <h4 style="font-weight: bold;">Over 280 sqm of play area. Plenty of space for your child's <br> imagination to thrive.</h4>
+                                <div style="padding: 0 20px; margin: 0 auto; font-size: 15px; text-align: left; display: flex; flex-wrap: wrap; justify-content: space-between;">
+                                    <ul style="list-style-type: circle;">
+                                        <li>Stimulating Activities for Holistic Development</li>
+                                        <li>Experienced and Caring Staff for Your Child's Well-being</li>
+                                        <li>Individualized Learning Approach Tailored to Each Child</li>
+                                        <li>Safe and Nurturing Environment Fostering Growth</li>
+                                        <li>Engaging Social Interactions and Group Learning </li>
+                                    </ul>
+                                    <ul style="list-style-type: circle;">
+                                        <li>Enriching Curriculum to Expand Knowledge and Skills</li>
+                                        <li>Active Parental Involvement for Stronger Connections</li>
+                                        <li>Collaborative Learning Environment Promoting Teamwork</li>
+                                        <li>Personalized Attention for Every Child's Unique Needs</li>
+                                        <li>Baking class for hands-on culinary fun and creativity.</li>
+                                    </ul>
+                                </div>
+                                <div style="margin-bottom: 20px; color: white; display: flex; flex-direction: column; justify-content: center;">
+                                    <h4 id="mainPriceText" style="margin-bottom: 0px; text-decoration: line-through;">54,000/Term</h4>
+                                    <h4 id="discountText" style="margin-top: 10px; font-weight: bold;">37,800/Term</h4>
+                                    <button style="margin: 0 auto; width: fit-content; cursor:pointer;background-color: #FEC20B; border: none; color: white; padding: 10px 30px; font-size: 17px;font-weight: bold; ">Secure your spot now and save!</button>
+                                    <h4 style="margin-top: 10px; font-weight: bold;color: #D12600;">5 Spots Left</h4>
+                                </div>
+                            </div>
                         </div>
                         <div style="text-align: center; width: 75%;padding: 50px 0; display: flex; flex-wrap: wrap; margin: 0 auto; flex-direction: column; justify-content: center; align-items: center;">
-                            <p style=" color: black;">At Northern Lights Day Care, we believe in providing a nurturing and stimulating environment where children can thrive. Our dedicated team of experienced professionals is committed to unlocking the potential within each child
-                                through engaging activities and a carefully crafted curriculum. </p>
-                            <p style=" color: black;">With a focus on holistic development and a strong emphasis on nutrition, we offer a comprehensive program that sets your child on the path to success. Join our community</p>
-                            <button style="cursor:pointer;background-color: #FEC20B; border: none; color: black; padding: 10px 60px; font-size: 22px; ">Give Your Child the Best Start in Life.</button>
+                            <h3 style="color: #FF3E00;font-size: 40px; font-weight: bold;">"Secure Your Spot for the Best Care in Town!"</h3>
+                            <p style=" color: black;">Register today to secure your child's place at Northern Lights Day Care, where exceptional care and top-quality education await. Take advantage of our limited-time offer: get 30% off if you register by the end of June or 15%
+                                off if you register by the end of July. <br>Act now to unlock these incredible savings while ensuring your child's spot in our renowned program.</p>
+                            <h3 style="color: #FF3E00;font-size: 40px; font-weight: bold;">"Discover Our Upcoming Locations: More Choices for Your Convenience!"</h3>
+                            <p style=" color: black;">If our main location isn't suitable for your needs, don't worry! Northern Lights Day Care is expanding across Addis Ababa to bring our exceptional care closer to you. Take a glimpse into the future and explore our upcoming
+                                locations, designed with the same dedication to excellence as our flagship center.</p>
                         </div>
-                        <div style="padding: 30px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
-                            <img style="width: 50%; height:auto;" src="aurora2.jpg" alt="">
-                            <div style="width: 45%;">
-                                <h1 style="color: #FF3E00;font-weight: bolder;margin:-20px 0 20px 0; text-align: center;"> <br>Discover the Northern Lights Difference</h1>
-                                <p style=" color: black;">Experience the exceptional care and educational excellence that sets Northern Lights Day Care apart. Our team of passionate professionals is dedicated to creating a warm and welcoming environment where every child feels
-                                    valued and supported. With our engaging curriculum, state-of-the-art facilities, and a focus on individualized attention, we go above and beyond to ensure that each child's unique potential is nurtured and celebrated.</p>
+                        <div style="width: 95%; display: flex;flex-wrap: wrap; justify-content: space-between; align-items: center;margin: 0 auto;">
+                            <div style="display: flex;flex-wrap: wrap; flex-direction: column; justify-content: center; align-items: center; padding: 0 20px; margin: 0 auto; margin-bottom: 30px; background-color: #26B4D7;">
+                                <div style="margin-top: 15px;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8318423098617!2d38.783838100000004!3d8.9876165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b857cf547d875%3A0x27ae0d3c5bf78997!2sNorthern%20Lights%20Day%20Care%20%7C%20Bole%20Branch%20%7C!5e0!3m2!1sen!2sza!4v1686775964480!5m2!1sen!2sza"
+                                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div style="width: 90%; color: black; text-align: center;" class="cardContent">
+                                    <h2 style="color: white;font-size: 20px; font-weight: bold;">Bole</h2>
+                                    <div style="margin-bottom: 20px; color: white; display: flex; flex-direction: column; justify-content: center;">
+                                        <h4 style="margin-bottom: 0px; text-decoration: line-through;">59,500/Term</h4>
+                                        <h4 style="margin-top: 10px; font-weight: bold;">41,650/Term</h4>
+                                        <button style="margin: 0 auto; width: fit-content; cursor:pointer;background-color: #FEC20B; border: none; color: white; padding: 10px 30px; font-size: 17px;font-weight: bold; ">Secure your spot now and save!</button>
+                                        <h4 style="margin-top: 10px; font-weight: bold;color: #D12600;">5 Spots Left</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display: flex;flex-wrap: wrap; flex-direction: column; justify-content: center; align-items: center; padding: 0 20px; margin: 0 auto; margin-bottom: 30px; background-color: #26B4D7;">
+                                <div style="margin-top: 15px;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.243590233234!2d38.7271875!3d8.9496875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8182e3f9d50f%3A0xc7544f350306214b!2sNorthern%20Lights%20Day%20Care%20%7C%20Lebu%20Branch%20%7C!5e0!3m2!1sen!2sza!4v1686776021940!5m2!1sen!2sza"
+                                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div style="width: 90%; color: black; text-align: center;" class="cardContent">
+                                    <h2 style="color: white;font-size: 20px; font-weight: bold;">Lebu</h2>
+                                    <div style="margin-bottom: 20px; color: white; display: flex; flex-direction: column; justify-content: center;">
+                                        <h4 style="margin-bottom: 0px; text-decoration: line-through;">59,500/Term</h4>
+                                        <h4 style="margin-top: 10px; font-weight: bold;">41,650/Term</h4>
+                                        <button style="margin: 0 auto; width: fit-content; cursor:pointer;background-color: #FEC20B; border: none; color: white; padding: 10px 30px; font-size: 17px;font-weight: bold; ">Secure your spot now and save!</button>
+                                        <h4 style="margin-top: 10px; font-weight: bold;color: #D12600;">4 Spots Left</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display: flex;flex-wrap: wrap; flex-direction: column; justify-content: center; align-items: center; padding: 0 20px; margin: 0 auto; margin-bottom: 30px; background-color: #26B4D7;">
+                                <div style="margin-top: 15px;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126102.1476240541!2d38.7700463!3d9.0004519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b87b96d61c15b%3A0x9fbeb56a4ef7cf9a!2sNorthern%20Lights%20Day%20Care%20(Bisrate%20Gebriel%20Branch)!5e0!3m2!1sen!2sza!4v1686776090707!5m2!1sen!2sza"
+                                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div style="width: 90%; color: black; text-align: center;" class="cardContent">
+                                    <h2 style="color: white;font-size: 20px; font-weight: bold;">Bisrate Gebriel</h2>
+                                    <div style="margin-bottom: 20px; color: white; display: flex; flex-direction: column; justify-content: center;">
+                                        <h4 style="margin-bottom: 0px; text-decoration: line-through;">59,500/Term</h4>
+                                        <h4 style="margin-top: 10px; font-weight: bold;">41,650/Term</h4>
+                                        <button style="margin: 0 auto; width: fit-content; cursor:pointer;background-color: #FEC20B; border: none; color: white; padding: 10px 30px; font-size: 17px;font-weight: bold; ">Secure your spot now and save!</button>
+                                        <h4 style="margin-top: 10px; font-weight: bold;color: #D12600;">5 Spots Left</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div style="padding: 50px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
-                            <div style="width: 45%;">
-                                <h1 style="color: #FF3E00;font-weight: bolder;margin:-20px 0 20px 0; text-align: center;"> <br>"Join Our Vibrant Community"</h1>
-                                <p style=" color: black;">We believe in the power of community. We foster a strong partnership between parents, caregivers, and educators to create a collaborative and enriching environment for your child. Our private Telegram channel and group
-                                    provide a platform for open communication, sharing updates, and engaging in meaningful discussions. Join our vibrant community and be part of a supportive network that celebrates every milestone and achievement on your
-                                    child's journey.</p>
+                        <div style="text-align: center; width: 75%;padding: 50px 0; display: flex; flex-wrap: wrap; margin: 0 auto; flex-direction: column; justify-content: center; align-items: center;">
+                            <h3 style="color: #FF3E00;font-size: 40px; font-weight: bold;">Why Register Early?</h3>
+                            <div>
+                                <h3 style="color: white;font-size: 30px; font-weight: bold;">Peace of Mind: </h3>
+                                <p style=" color: black;">Secure your child's enrollment now and enjoy peace of mind knowing that their care is secured. Our dedicated team is eager to welcome your little one and provide them with a nurturing and stimulating environment.</p>
                             </div>
-                            <img style="width: 50%; height:auto;" src="aurora2.jpg" alt="">
+                            <div>
+                                <h3 style="color: white;font-size: 30px; font-weight: bold;">Guarantee Your Preferred Location: </h3>
+                                <p style=" color: black;">By registering early, you have the opportunity to secure your preferred day care location. Don't miss out on your first-choice center; register now to avoid disappointment. </p>
+                            </div>
+                            <div>
+                                <h3 style="color: white;font-size: 30px; font-weight: bold;">Don't Delay – Limited Spots Available! </h3>
+                                <p style=" color: black;">Our spots are filling up quickly, and we wouldn't want you to miss out. Register today to take advantage of this special offer and be among the first to experience the exceptional care and educational excellence at Northern
+                                    Lights Day Care. Register now to embark on an incredible journey with Northern Lights Day Care. Secure your child's spot and give them the best start in their early years!"</p>
+                            </div>
                         </div>
 
-                        <p style="text-align: center; margin: 0 auto; background-color: #2D9BA5; padding: 30px 50px; color: black; border-radius: 5px; width: 80%;">Northern Lights is based on the belief that children who participate in appropriate challenges and activities that require them to think critically, think outside the box, socialize, and challenge themselves and others will succeed
-                            in their daily activities such as education, social life, public speaking, and</p>
                     </div>
                     <div style="text-align: center; display: flex;flex-direction: column; justify-content: center; align-items: center; padding: 30px 0; color: black; background-color: #258C97;">
-                        <h3>Join us at Northern Lights Day Care and unlock a world of endless possibilities for your child. <br> Together, let's inspire, nurture, and empower them to reach their full potential.</h3>
-                        <button style="cursor:pointer;background-color: #FEC20B; border: none; color: white; padding: 10px 40px; font-size: 22px; font-weight: bold;">Register</button>
+                        <h3>Join us at Northern Lights Day Care and unlock a world of endless possibilities for your child. <br> Together, let's inspire, nurture, and empower them to reach their full potential. <br><span style="font-weight: bold;">Access is limited to parents only.</span></h3>
+                        <button style="cursor:pointer;background-color: #26B4D7; border: none; color: white; padding: 10px 40px; font-size: 22px; font-weight: bold;">Request access to our private community.</button>
                     </div>
 
 
@@ -215,7 +348,191 @@
                 <!-- pettaren container / -->
                 <div class='right-pattern pattern pattern-2'></div>
                 <!-- footer image container / -->
+                <footer style="background-color: #3F371C; ">
+                    <div style="display: flex; flex-wrap: wrap; max-width: 1300px; padding-top: 50px; margin: 0 auto; justify-content: space-between;">
 
+                        <div style="width: 45%;">
+                            <h2 style="color: #26B4D7;">Contact Details</h2>
+                            <div class="cws_fa_tbl">
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell size_1x">
+                                        <div class="cws_fa_wrapper"><i class="cws_fa fa fa-1x fa-location-arrow"></i><span class="ring"></span></div>
+                                    </div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <h2>Main Address:</h2>
+                                    </div>
+                                </div>
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell"></div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <p>Brunos Icream shop,
+                                            <br>Gourd Shola,Salite Meheret.<br> Addis Ababa, Ethiopia
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cws_fa_tbl">
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell size_1x">
+                                        <div class="cws_fa_wrapper"><i class="cws_fa fa fa-1x fa-clock-o"></i><span class="ring"></span></div>
+                                    </div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <h2>Monday – Friday</h2>
+                                    </div>
+                                </div>
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell"></div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <p>
+                                            6:30AM – 6:30PM<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cws_fa_tbl">
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell size_1x">
+                                        <div class="cws_fa_wrapper"><i class="cws_fa fa fa-1x fa-phone"></i><span class="ring"></span></div>
+                                    </div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <h2>Phones:</h2>
+                                    </div>
+                                </div>
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell"></div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <p><a href="tel:+251-97 223 0874">+251-97 223 0874</a>
+                                            <br><a href="tel:+251-9-23-03-4444">+251-9-23-03-4444</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cws_fa_tbl">
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell size_1x">
+                                        <div class="cws_fa_wrapper"><i class="cws_fa fa fa-1x fa-envelope"></i><span class="ring"></span></div>
+                                    </div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <h2>E-mail:</h2>
+                                    </div>
+                                </div>
+                                <div class="cws_fa_tbl_row">
+                                    <div class="cws_fa_tbl_cell"></div>
+                                    <div class="cws_fa_tbl_cell">
+                                        <p>
+                                            <a href="mailto:northernlightsdaycareet@gmail.com"> <span class="__cf_email__">northernlightsdaycareet@gmail.com</span></a>
+                                            <br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 48%; font-size: 12px;">
+                            <img style=" width: 60%; " src="NLD Trade Name.png " alt=" ">
+                            <div class="grid_row clearfix">
+                                <div class="grid_col grid_col_4 fix" "=" ">
+<div class="ce clearfix ">
+<div>
+<div class="cws_fa_tbl ">
+<div class="cws_fa_tbl_row ">
+<div class="cws_fa_tbl_cell size_1x ">
+<div class="cws_fa_wrapper round "><i class="cws_fa fa fa-1x fa-university "></i><span class="ring "></span></div>
+</div>
+<div class="cws_fa_tbl_cell ">
+<h2>Learn through play</h2>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="ce clearfix ">
+<div>
+<div class="cws_fa_tbl ">
+<div class="cws_fa_tbl_row ">
+<div class="cws_fa_tbl_cell size_1x ">
+<div class="cws_fa_wrapper round "><i class="cws_fa fa fa-1x fa-book "></i><span class="ring "></span></div>
+</div>
+<div class="cws_fa_tbl_cell ">
+<h2>Education Services</h2>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="grid_col grid_col_4 fix ">
+<div class="ce clearfix ">
+<div>
+<div class="cws_fa_tbl ">
+<div class="cws_fa_tbl_row ">
+<div class="cws_fa_tbl_cell size_1x ">
+<div class="cws_fa_wrapper round "><i class="cws_fa fa fa-1x fa-cubes "></i><span class="ring "></span></div>
+</div>
+<div class="cws_fa_tbl_cell ">
+<h2>Toys and Games</h2>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="ce clearfix ">
+<div>
+<div class="cws_fa_tbl ">
+<div class="cws_fa_tbl_row ">
+<div class="cws_fa_tbl_cell size_1x ">
+<div class="cws_fa_wrapper round "><i class="cws_fa fa fa-1x fa-child "></i><span class="ring "></span></div>
+</div>
+<div class="cws_fa_tbl_cell ">
+ <h2>Child Care</h2>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="grid_col grid_col_4 fix ">
+<div class="ce clearfix ">
+<div>
+<div class="cws_fa_tbl ">
+<div class="cws_fa_tbl_row ">
+<div class="cws_fa_tbl_cell size_1x ">
+<div class="cws_fa_wrapper round "><i class="cws_fa fa fa-1x fa-heart "></i><span class="ring "></span></div>
+</div>
+<div class="cws_fa_tbl_cell ">
+<h2>Love and Care</h2>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="ce clearfix ">
+<div>
+<div class="cws_fa_tbl ">
+<div class="cws_fa_tbl_row ">
+<div class="cws_fa_tbl_cell size_1x ">
+<div class="cws_fa_wrapper round "><i class="cws_fa fa fa-1x fa-users "></i><span class="ring "></span></div>
+</div>
+<div class="cws_fa_tbl_cell ">
+<h2>Physical Activity</h2>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+                        </div>
+                    </div>
+
+                </footer>
+                <!-- footer image container / -->
+                <div class="footer_image "></div>
             </div>
             <!-- svg filter -->
             <svg xmlns="http://www.w3.org/2000/svg " version="1.1 " width="0 " style='display:none;'>
@@ -276,54 +593,50 @@
     <script type='text/javascript' src="js/jquery.form.min.js "></script>
     <script type='text/javascript' src='js/scripts.js'></script>
     <script type='text/javascript' src="js/jquery.tweet.js "></script>
-    <style>
-        .hosting-container {
-            max-width: 1050px;
-            padding: 50px;
-            background: #fff;
-            margin: 20px auto;
-            /* border: solid gray; */
-            border-radius: 10px;
-        }
-        
-        .pricing {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .card {
-            width: 280px;
-            height: 365px;
-            background: #26b4d7;
-            color: white;
-            margin: 0 55px 20px 0;
-            border-radius: 12px;
-            text-align: center;
-        }
-        
-        .card-ttl {
-            margin: 5px;
-        }
-        
-        .card-dtl h2 {
-            margin: 35px 0 20px;
-        }
-        
-        .card-dtl ul {
-            font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Open Sans, Roboto, Canterell, Helvetica Neue, sans-serif;
-            list-style-type: none;
-            line-height: 35px;
-        }
-        
-        @media screen and (max-width: 600px) {
-            .heros {
-                padding-bottom: 0px;
-            }
-        }
-    </style>
-</body>
 
+
+    <script>
+        function calculateDiscount() {
+            // get the selected food option
+            const foodOption = document.querySelector('input[name="food "]:checked').value;
+
+            // get the current date
+            const currentDate = new Date();
+
+            // set the date cutoff to July 1st of the current year
+            const cutoffDate = new Date(currentDate.getFullYear(), 6, 1);
+
+            // calculate the discount based on the selected options and date
+            var discount;
+            var mainPrice;
+            if (currentDate < cutoffDate) {
+                if (foodOption === "foodIncluded ") {
+                    discount = "37,800(30% off) ";
+                    mainPrice = "54,000 ";
+                } else {
+                    mainPrice = "46,500 ";
+                    discount = "32,550(30% off) ";
+                }
+            } else {
+                if (foodOption === "foodIncluded ") {
+                    mainPrice = "46,500 ";
+                    discount = "45,900(15% off) ";
+                } else {
+                    mainPrice = "46,500 ";
+                    discount = "39,525(15% off) ";
+                }
+            }
+
+            // display the result
+            const discountText = document.getElementById("discountText ");
+            discountText.textContent = `${discount}/Term`;
+            const mainPriceText = document.getElementById("mainPriceText ");
+            mainPriceText.textContent = `${mainPrice}/Term`;
+        }
+
+        // listen for changes to the radio button selections
+        const radios = document.querySelectorAll('input[name="food "]');
+        radios.forEach(radio => radio.addEventListener("change ", calculateDiscount));
+    </script>
 
 </html>

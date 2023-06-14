@@ -10176,6 +10176,25 @@ only screen and (min-device-pixel-ratio: 1.5) {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .heros {
+        background-image: url('Mobile pages.png')!important;
+        color: #fff;
+    }
+    .registeration h2 {
+        font-size: 20px;
+    }
+    .registeration h3 {
+        font-size: 15px;
+    }
+    .registeration {
+        margin-right: 20px;
+    }
+    .backtooriginal {
+        width: 100%!important;
+    }
+}
+
 .uranus.tparrows {
     width: 50px;
     height: 50px;
