@@ -1120,6 +1120,27 @@ div.cf-validation-errors {
 TYPOGRAPHY
 */
 
+@media (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    /* Place your mobile-specific styles here */
+    .callbottom {
+        padding-bottom: 60px !important;
+    }
+    .callbottom h1 {
+        font-size: 30px !important;
+    }
+    /* ...additional mobile styles... */
+    .registerationbutton {
+        padding: 20px 10px !important;
+    }
+    .callbutton {
+        font-size: 30px !important;
+    }
+    .registerationHeader h2 {
+        font-size: 30px !important;
+    }
+}
+
 address:not(:last-child),
 p:not(:last-child),
 ul:not(:last-child),
